@@ -1,0 +1,28 @@
+{"intents": [
+		{"tag": "goodbye",
+		"patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good Day"],
+		"responses": ["sad to see you go :(", "talk to you later", "goodbye!", "illalika"],
+		"context_set":""
+		},
+		{"tag": "hello",
+		"patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+		"responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+		"context_set":""
+		},
+		{"tag": "working hours",
+		"patterns" : ["how many hours of work in a week", "weekly working hours", "normal working hours for adults"],
+		"responses": ["article 65: normal hours is 8 hours per day (48 hours per week), increased to 9 hours for commercial establishments(hotels, cafeterias, security), it can be reduced for health-hazardous and arduous work"],
+		"context_set":""
+		},
+		{"tag": "break",
+		"patterns" : ["how many breaks in a day", "breaks", "work break", "recess"],
+		"responses": ["article 66 : no person should go without break for more than 5 continous hours, total break should be minimum of one hour"],
+		"context_set":""
+		},
+		{"tag": "overtime",
+		"patterns" : ["when is overtime calculated", "what time is overtime", "how many hours of overtime", "overtime"],
+		"responses" : ["any extra hours of work can be claimed as overtime, with a minimum of 25% of wage calculated as excess per hour"],
+		"context_set":""
+		}
+	]
+}
