@@ -1,4 +1,4 @@
-# CHAT
+# HR OPERATIONS CHATBOT (V1.0)
 HR Ops Chatbot
 
 Making a basic chatbot in python 3.6 with tensorflow 1.15.1 (not current versions) and nltk.
